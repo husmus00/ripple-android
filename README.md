@@ -1,6 +1,7 @@
-# Ripple
+# Ripple for Android
 
 Note: This app is a work in progress and still lacks some core features. Proper feedback is not yet implemented. Shizuku support is also planned.
+
 ---
 
 Some Android smartphone manufacturers, such as Samsung and Oneplus, allow for the installation of copies of certain apps (typically messaging apps) using Android's native user system.
