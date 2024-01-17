@@ -22,12 +22,13 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
+
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -66,4 +67,14 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation("androidx.navigation:navigation-compose:2.7.6")
+
+
+    val shizukuVersion = "13.1.5"
+
+    implementation("dev.rikka.shizuku:api:$shizukuVersion")
+    implementation("dev.rikka.shizuku:provider:$shizukuVersion")
+
+    // implementation("com.github.termux:termux-shared:0.118")
 }

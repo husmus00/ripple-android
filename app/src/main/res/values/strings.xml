@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Ripple</string>
+    <string name="termux_permission">com.termux.permission.RUN_COMMAND</string>
 </resources>
