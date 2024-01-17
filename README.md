@@ -1,6 +1,7 @@
 # Ripple
 
 Note: This app is a work in progress and still lacks some core features. Proper feedback is not yet implemented. Shizuku support is also planned.
+---
 
 Some Android smartphone manufacturers, such as Samsung and Oneplus, allow for the installation of copies of certain apps (typically messaging apps) using Android's native user system.
 This app helps circumvent this limitation using ADB to install (almost) any app to the dual profile. It allows users to select an app and install it by sending the necessary ADB commands to Termux.
