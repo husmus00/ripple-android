@@ -1,6 +1,6 @@
 # Ripple for Android
 
-Note: This app is a work in progress and still lacks some core features. Proper feedback is not yet implemented. Shizuku support is also planned.
+Note: This app is a work in progress and primarily lacks a user-friendly UX. Proper feedback is not yet implemented. Shizuku support is also planned.
 
 Update 2025-02: I still plan to work on this, as I still use it despite its un-ease of use. It needs better Termux integration and perhaps an automated way of initially configuring Termux for accepting adb commands. 
 
